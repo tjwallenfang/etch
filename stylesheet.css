@@ -1,0 +1,15 @@
+.container {
+	height: 500px;
+	width: 500px;
+	margin: 50px auto;
+	border: 1px solid black;
+	line-height: 0;
+}
+
+.cell {
+	border: 1px dashed black;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+

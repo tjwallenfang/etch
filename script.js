@@ -9,8 +9,10 @@ function createGrid(size) {
 			$(".container").append($("<div class=\"cell\"><div>"));
 		}	
 	}
-	$(".cell").css({"height":(500-2*size)/size+"px","width":(500-2*size)/size+"px"});
-	alert("cells = " + $(".cell").length);
+	var dim = Math.round(600/size);
+	$(".container").css({"height" : (dim * size) + "px", "width" : (dim * size) + "px"});
+	$(".cell").css({"height": dim +"px","width": dim +"px"});
+	//alert("cells = " + $(".cell").length);
 	$(".cell").on('mouseenter', function() {
 		$(this).css('background-color','black');
 	});

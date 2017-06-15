@@ -1,15 +1,35 @@
 .container {
-	height: 500px;
-	width: 500px;
 	margin: 50px auto;
-	border: 1px solid black;
+	border: 2px solid black;
 	line-height: 0;
 }
 
 .cell {
-	border: 1px dashed black;
+	border: 1px solid darkgrey;
 	display: inline-block;
 	padding: 0px;
 	margin: 0px;
+	float: left;
+	box-sizing: border-box;
 }
 
+#newGrid {
+	margin: 20px auto;
+	font-size: 40px;
+	display: block;
+}
+
+h1 {
+	margin:15px auto;
+	font-weight: bold;
+	color: darkblue;
+	font-size: 40px;
+	border-bottom: 3px double darkblue;
+	text-align: center;
+}
+
+span {
+	font-size: 10px;
+	font-family: sans-serif;
+	font-style: italic;
+}
